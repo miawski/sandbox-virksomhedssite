@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img">
+  <defs>
+    <linearGradient id="sky" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#112439"/>
+      <stop offset="100%" stop-color="#1c4268"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="720" fill="url(#sky)"/>
+  <path d="M0 600 120 460 200 512 320 350 470 470 620 290 760 410 870 340 960 420V720H0Z" fill="#0c1824"/>
+  <rect x="152" y="250" width="80" height="210" rx="14" fill="#0f2236"/>
+  <rect x="292" y="180" width="80" height="280" rx="14" fill="#173753"/>
+  <rect x="430" y="214" width="90" height="246" rx="14" fill="#112942"/>
+  <rect x="592" y="150" width="84" height="310" rx="14" fill="#173753"/>
+  <rect x="740" y="230" width="74" height="230" rx="14" fill="#0f2236"/>
+  <g fill="#8ed2ff">
+    <rect x="174" y="280" width="36" height="46" rx="8"/>
+    <rect x="314" y="214" width="36" height="46" rx="8"/>
+    <rect x="452" y="250" width="36" height="46" rx="8"/>
+    <rect x="614" y="186" width="36" height="46" rx="8"/>
+    <rect x="762" y="260" width="30" height="40" rx="8"/>
+  </g>
+  <path d="M90 120h240" stroke="#4faae8" stroke-width="14" stroke-linecap="round"/>
+  <path d="M110 120h200" stroke="#b6e4ff" stroke-width="6" stroke-linecap="round"/>
+</svg>
