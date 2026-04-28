@@ -124,12 +124,12 @@ h2,
 .nav-menu a,
 .theme-switch-text,
 .site-footer li {
-  font-family: "Alumni Sans", Arial, sans-serif;
+  font-family: "Rubik", Arial, sans-serif;
 }
 
 .brand__text strong {
-  font-size: 1.55rem;
-  letter-spacing: 0.12em;
+  font-size: 1.3rem;
+  letter-spacing: 0.1em;
 }
 
 .brand__text span:last-child {
@@ -518,9 +518,10 @@ h2 {
 
 .feature__overlay p {
   margin: 0;
-  font-family: "Alumni Sans", Arial, sans-serif;
-  font-size: clamp(1.8rem, 4vw, 2.8rem);
-  line-height: 0.95;
+  font-family: "Rubik", Arial, sans-serif;
+  font-size: clamp(1.45rem, 3vw, 2.3rem);
+  font-weight: 700;
+  line-height: 1.05;
 }
 
 .feature__copy {
@@ -548,9 +549,10 @@ h2 {
 
 .gallery-card figcaption {
   padding: 1rem 1rem 1.1rem;
-  font-family: "Alumni Sans", Arial, sans-serif;
-  font-size: 1.45rem;
-  letter-spacing: 0.04em;
+  font-family: "Rubik", Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
 .scroll-fab {

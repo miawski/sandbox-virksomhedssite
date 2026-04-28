@@ -15,10 +15,13 @@ root.dataset.theme = storedTheme === "light" || storedTheme === "dark" ? storedT
 
 function updateThemeButton() {
   if (!themeToggle) return;
+
   const isDark = root.dataset.theme === "dark";
+
   if (themeSwitchText) {
     themeSwitchText.textContent = isDark ? "Lys" : "Mørk";
   }
+
   themeToggle.setAttribute(
     "aria-label",
     isDark ? "Skift til lys tilstand" : "Skift til mørk tilstand",
@@ -28,6 +31,7 @@ function updateThemeButton() {
 
 function setMenuState(isOpen) {
   if (!nav || !burger) return;
+
   nav.classList.toggle("is-open", isOpen);
   burger.setAttribute("aria-expanded", String(isOpen));
   burger.setAttribute("aria-label", isOpen ? "Luk menu" : "Åbn menu");
@@ -101,6 +105,7 @@ menuLinks.forEach((link) => {
 
 function updateScrollFab() {
   if (!scrollFab) return;
+
   const topMode = isTopMode();
   scrollFab.textContent = topMode ? "Til toppen" : "Til indhold";
   scrollFab.classList.toggle("is-top", topMode);
